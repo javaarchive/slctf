@@ -1,0 +1,18 @@
+{
+    "protocol": 1.0,
+    "title": "CursedCTF",
+    "desc": "The problem will tell you if the flag is not in the format cursed{*}. If not specified everything is lowercase. Enjoy!",
+    "initialText":"If you figure this entire thing out after October 11st you can get your name on the honor roll below. ",
+    "questions":[
+        {
+            "type": "question",
+            "content":"This CTF is protected from XSS, but what does it use? ",
+            "answer": "a2d2357bca944d4cf397dd858ba9cdfd51c8fb7bc355e682a6179660f7a99876b526cf3c56a713ceeb8df4c97c939d52ed79c35f9ffa4208e74de594e1cd9d21",
+            "salt": ""
+        },
+        {
+        "type":"text",
+        "content":"People who have finished the whole thing: \n No one yet lol"
+        }
+     ]
+ }
