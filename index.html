@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script>
+    window.onload = function (e) {
+      window.earlyStart = true;
+    }
+  </script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>slctf</title>
+
+  <!-- import the webpage's stylesheet -->
+  <link rel="stylesheet" href="/style.css" />
+
+  <!-- import the webpage's javascript file -->
+
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script src="/script.js" type="text/babel"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://unpkg.com/crypto-js@4.0.0/crypto-js.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.1.1/purify.min.js" integrity="sha512-MyuIiR29IQaNvgQIvGVvOwtphjY82+ZoeopFcOyXrdsFbIiU6Sc3MRvpXRzOYtihMs83vT/rz8ArCM53l5Onqg==" crossorigin="anonymous"></script>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <div class="hide-onload">
+    <h1>Loading...</h1>
+    <p>This may take a while depending on your internet speed espeically with the size of React. In the future the
+      software will switch to preact and have a load faster loading times</p>
+  </div>
+  <noscript>
+    <h1>Sorry!</h1>
+    <p>
+      Javascript is required to run this application. Without it the page
+      cannot be interactive and we cannot check your answers. To solve this
+      problem google steps for how to enable javascript in your browser or
+      find a browser that has javascript support. If this takes wayyyy to long, open up devtools and have a look if
+      there are any errors. 
+    </p>
+  </noscript>
+  <div class="show-if-glitch">
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </div>
+
+</body>
+
+</html>

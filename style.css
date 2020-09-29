@@ -1,0 +1,71 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  color: teal;
+}
+
+.container{
+  margin: auto;
+  width: 70%;
+  background-image: url("https://cdn.glitch.com/a45f83b2-c506-4cd5-9cf9-e130280ae73a%2Fdismal.png?v=1601229862855");
+  padding: 8px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+.card{
+  margin: auto;
+  width: 70%;
+  padding: 12px;
+  border-radius: 5px;
+  border-width: 0px;
+  border-color: grey;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-bottom: 1em;
+  margin-top: 1em;
+  background-color: whitesmoke;
+  transition: 1s
+}
+.card:focus{
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+}
+.card:hover{
+  background-color: white;
+}
+.answer-input{
+  width: 80%;
+  height: 2em;
+  font-family: 'Courier New', Courier, monospace;
+  transition: 1s;
+}
+.answer-input:focus{
+  background-color: whitesmoke;
+}
+.not-attempted{
+  background-color: orange;
+  color: white;
+}
+.answer-submit{
+  border-radius: 4px;
+  padding: 0.3em;
+  color: black;
+  background-color: lawngreen;
+  margin: 0px 4px;
+}
+.question-topbar{
+  padding: 1em;
+}
+.solved{
+  background-color: forestgreen;
+  color: white;
+}
+.attempts{
+  background-color: crimson;
+  color: white;
+}

@@ -1,0 +1,23 @@
+{
+    "protocol": 1.0,
+    "title": "Demo CTF",
+    "desc": "It's a demo CTF",
+    "initialText":"You're not just limited to plain text. You can also use **markdown** powered by marked",
+    "questions":[
+        {
+            "type": "question",
+            "content":"Let's start with an easy one to just check the answer system. Type `slctf{a test question}` without spaces. ",
+            "answer": "cd12ab91ea1c402ee42118e2a284719aac272cb42a3fccc03460d015d8d242602fc8bf0f7e19d0f0bf3a615bfe8fa9d48c46425f87294a5c5009d00829622625",
+            "salt": ""
+        },
+        {
+            "type": "locked",
+            "encryptedQuestionData":"U2FsdGVkX18Xnz8sX3T0dol13Eqq2xPW51lKFB8JtUMzXvnqqKhmvOl+4lj8ccpUhGycsluUNI4jn2HiuxXN38/tC35jP9B+DKVdWlWx3+nEUMWNBLNOuffzN8N6/5F/pa/V/Thgn7Wzqu3jLM+0c04SIRnZICGhOABHk04oT5YvQsCcmAvp6z/Zt9gaKKUi2BCBExgwmt680+OrcRnlzUCmRVkwcmfwcDhp/+6+GzsRI6zwBSSxH5AsuUHJnuXEICb1MAb1RdmnqUh20WmG96f0Lrpv49CjR4LVf6EdT2OFS2xToZYQ9n+o9sTcRZdS/+pCTdZicCMOiys+03fnVHwfEF9QGWTk2Q0NrsMItAA=",
+            "dependent": "cd12ab91ea1c402ee42118e2a284719aac272cb42a3fccc03460d015d8d242602fc8bf0f7e19d0f0bf3a615bfe8fa9d48c46425f87294a5c5009d00829622625"
+        },
+        {
+            "type": "text",
+            "content": "Thanks for checking this out. By the way you don't have to make everything a question. This here is a text card. You can look at the syntax for making your own CTFs [here](https://sticky-sweet-universe.glitch.me/demo.json) \n ## Can someone hack this? \n Yes but only of they have the power to brute force 10 character sha512 and AES. Yes, the NSA can hack it. The longer your salt is the more computing power will be needed to try each combination. Here's also an example of an <a href=\"javascript:alert('gotcha')\"> attempt at xss</a>"
+        }
+    ]
+}
