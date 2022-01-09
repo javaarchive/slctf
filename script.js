@@ -10,7 +10,7 @@ class MarkdownMarked extends React.Component {
     super(props);
   }
   getMarkdownText() {
-    var rawMarkup = marked(this.props.children);
+    var rawMarkup = marked.parse(this.props.children);
     var cleanMarkup = DOMPurify.sanitize(rawMarkup);
     return { __html: cleanMarkup };
   }
